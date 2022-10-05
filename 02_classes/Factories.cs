@@ -47,7 +47,7 @@ namespace Factories
         public int EmpCount { get { return Employees.Count; } }
         public override string ToString()
         {
-            return $"Product: {Name}\nEmployees: {Employees}\nProducts: {Products}\nAverage salary:{AvgSalary}\nTotal salary: {TotalSalary}\nGross Domestic Product: {GDP}\nEmployees count{EmpCount}";
+            return $"Average salary:{AvgSalary}\nTotal salary: {TotalSalary}\nGross Domestic Product: {GDP}\nEmployees count{EmpCount}";
         }
     }
 }
